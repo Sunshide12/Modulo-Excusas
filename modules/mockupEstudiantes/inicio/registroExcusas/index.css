@@ -1,0 +1,221 @@
+body {
+  margin: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.page_title {
+  font-size: 27px;
+  margin-top: 0px;
+}
+
+/* Banner institucional */
+.banner {
+  text-align: center;
+  font-size: 40px;
+}
+
+.banner img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner table {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Contenedor principal del estudiante */
+.student-container {
+  width: 85%;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #0b4e11;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.main-content {
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left-logo {
+  width: 15%;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+.logo-img {
+  width: 75%;
+  height: auto;
+}
+
+.student-table {
+  width: 60%;
+  padding: 0 10px;
+}
+
+.student-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 8px;
+}
+
+.program-header {
+  background-color: #0b4e11;
+  color: white;
+  font-weight: bold;
+}
+
+.photo-section {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+}
+
+.photo-img {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  background-color: #ddd;
+}
+
+/* Estructura del layout general */
+.main-layout {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Barra lateral izquierda (navbar) */
+.navbar {
+  text-align: left;
+  width: 200px;
+}
+
+#izquierda {
+  width: 170px;
+  padding: 10px;
+  float: left;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar li {
+  margin-bottom: 10px;
+  border: 1px solid green;
+  width: 180px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.navbar img {
+  max-width: 60px;
+  max-height: 100%;
+  margin-right: 10px;
+}
+
+/* Contenido central (panel informativo) */
+.centered-content {
+  max-width: 800px;
+  color: #000000;
+  overflow: auto;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+#derecha {
+    width: 90%;
+}
+
+/* Botones */
+.btnDanger {
+  margin-left: 50px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 80px;
+  font-size: 20px;  
+  height: 60px;
+  width: 120px;
+  transition-duration: 0.4s;  
+}
+
+.btnDanger:hover{
+   background-color: #8a2607;
+   color: white;
+
+}
+
+.btnEnviar {
+  background-color: #00a6ff;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+  height: 40px;
+  width: 70px;
+  font-size: 15px;
+}
+
+.Registro {
+  cursor: pointer;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+.dark-hover:hover {
+  background-color: #c0c0c0;
+  color: #fff;
+}

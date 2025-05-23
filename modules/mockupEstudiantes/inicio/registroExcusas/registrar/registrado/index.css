@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    display: none;
+}
+
+.mb-3 {
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar {
+    text-align: left;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navbar ul {
+    margin-top: 280px;
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin-bottom: 10px;
+    border: 1px solid green;
+    width: 170px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    /* Alinea la imagen y el texto en la dirección del eje principal */
+    flex-direction: row;
+    /* Alinea la imagen y el texto en una fila */
+    padding: 5px;
+    font-weight: bold;
+}
+
+.navbar img {
+    max-width: 60px;
+    /* Ancho máximo de la imagen */
+    max-height: 100%;
+    /* Altura máxima del 100% del contenedor */
+    margin-right: 10px;
+}
+
+.centered-content {
+    /* Estilos para el div que se centrará */
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    /* Agrega esta línea para establecer un contexto de posicionamiento */
+}
+
+.btnDanger {
+  margin-left: 50px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 80px;
+  font-size: 20px;  
+  height: 60px;
+  width: 120px;
+  transition-duration: 0.4s;  
+}
+
+.btnDanger:hover{
+   background-color: #8a2607;
+   color: white;
+
+}
+
+.horario {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+.dark-hover:hover {
+    background-color: #c0c0c0;
+    color: #fff;
+}
+
+.btnEnviar {
+    margin-top: -50px;
+    margin-left: 520px;
+    background-color: #00a6ff;
+    color: white;
+    cursor: pointer;
+}
+
+.form {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.form-control {
+    max-width: 500px;
+}
+
+.contenedorForm input {
+    margin-left: 0;
+}
+
+.formH {
+    margin-left: 270px;
+}
