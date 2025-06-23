@@ -6,4 +6,4 @@ Para abrir correctamente los mockups se debe tener en cuenta lo siguiente
 
 mockupDirectorUnidad = " localhost/mockupDirectorU "
 mockupDocente = " localhost/mockupDocente "
-mockupEstudiante = " localhost/mockupEstudiantes "
+mockupEstudiante = " localhost/mockupEstudiantes "...
